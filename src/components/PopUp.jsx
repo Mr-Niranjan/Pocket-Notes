@@ -15,7 +15,7 @@ export default function PopUp({onClose}){
     const modalRef = useRef()
 
     const[values , setValues] = useState({ name:""});
-    const[errors , setErrors] = useState({name:null});
+    const[errors , setErrors] = useState({name:<></>});
 
     const handleChange = (e) => {
         setValues({ values , [e.target.name]:e.target.value})
@@ -32,7 +32,7 @@ export default function PopUp({onClose}){
             setErrors((prev)=>({...prev, name:"Group Name is Required"}));
             isErrors = true;
         } else{
-            setErrors((prev)=>({...prev , name:null }));
+            setErrors((prev)=>({...prev , name:<></> }));
         }
         if(!isErrors){
             localStorage.setItem("GroupName",JSON.stringify(values));
