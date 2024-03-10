@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebarHeading {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin:30px;
+}
+.sidebarAdd{
+    font-weight: 900;
+    background-color: #16008B;
+    font-family: Roboto;
+    font-size: 51px;
+    position: fixed;
+    border-radius: 50%;
+    padding: 0 15px 0 15px;
+    left: 20vw;
+    bottom: 4vw;
+    color: white;
+    cursor: pointer;
+}
+.sidebarNote{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    align-items: center;
+}
+.GroupsFigure{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 300;
+    /* line-height: 23px; */
+    letter-spacing: 0.02em;
+    text-align: left;
+    background-color: blue;
+    color:white;
+    border-radius: 50%;
+    padding:15px;
+    margin:10px;
+    align-items: center;
+}
+.GroupsName{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin:10px;
+}

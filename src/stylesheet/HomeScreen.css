@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+.HomeScreen{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height:90vh;
+    gap:4px;
+
+}
+.HomeScreenHeading{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin:10px;
+}
+.EncryptedSide{
+    align-items: center;
+    text-align: center;
+    margin-top : 20px;
+}
