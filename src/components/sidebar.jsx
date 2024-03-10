@@ -7,7 +7,7 @@ import ProfileSet from "./ProfileSet";
 
 export default function GroupNotes() {
   const [popUp , setPopUp] = useState(false);
-  const group = JSON.parse(localStorage.getItem("GroupName"))
+  let group = JSON.parse(localStorage.getItem("GroupName"))
     return(
       <>
       <div style={{display:"flex",flexDirection:"column",maxWidth:"24vw",height:"100vh",Border:"2px"}}>
@@ -15,11 +15,13 @@ export default function GroupNotes() {
         <div className="sidebarNote">
           
            <figure className="GroupsFigure">
-                  <ProfileSet fullName={"group.name"}/>    
+           {group && <ProfileSet fullName={group.name} />}
+                  {/* <ProfileSet fullName={group.name}/>     */}
            </figure>
 
             <div className="GroupsName">
-              {group.name}
+            {group && group.name}
+              {/* {group.name} */}
             </div>
         </div>
 
