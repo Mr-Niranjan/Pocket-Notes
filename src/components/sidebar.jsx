@@ -15,7 +15,7 @@ export default function GroupNotes() {
         <div className="sidebarNote">
           
            <figure className="GroupsFigure">
-                  <ProfileSet fullName={group.name}/>  
+                  <ProfileSet fullName={"group.name"}/>    
            </figure>
 
             <div className="GroupsName">
