@@ -7,20 +7,7 @@ export default function AddNote() {
     return(
         <>
         <div className="AddNotePage" style={{height:"100vh",width:"74vw",backgroundColor:"#DAE5F5"}}>
-            {/* <div style={{display:"flex",flexDireaction:"row",backgroundColor:"#001F8B",alignItems:"center"}}>
-            <img src={backLogo} alt="back" className="backLogo" style={{width:"23px",padding:"5px"}}/>
-                <div>
-                    <figure className="GroupsFigure" style={{backgroundColor:color}}>
-                     {group && <ProfileSet fullName={group.name} />}
-                    </figure>
 
-                </div>
-                <div className="GroupsName" style={{color:"white"}}> 
-
-                    {group && group.name}
-
-                </div>
-            </div> */}
             <div>
                 <div className="AddNote_note">
                     <div className="AddNote_content" style={{width:"100%",height:"76vh"}}>
