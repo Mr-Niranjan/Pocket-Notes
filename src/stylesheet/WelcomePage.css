@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 720px){
+    .HomeScreen{
+        display:none;
+    }
+    .sidebar{
+        display:block;
+        height:fit-content;
+         border-right: none;
+    }
+}

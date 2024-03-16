@@ -15,10 +15,10 @@ function GroupNotes() {
     <>
     {create_file ? <PopUp create_new_group={setcreate_file} add_new_group={add_group} setadd_new_group={setadd_group} />:<></>}
     
-    <div style={{
+    <div className={"GroupList"} style={{
           display: "flex",
           flexDirection: "column",
-          maxWidth: "24vw",
+          Width: "24vw",
           height: "100vh",
           Border: "2px",
           color:"black"
@@ -27,9 +27,9 @@ function GroupNotes() {
         <div className="sidebarGroups">
         {add_group.length ? <ProfileSet list={add_group}/> : <></>}
         </div>
-        <span className="sidebarAdd" onClick={()=>setcreate_file(true)}>
+        <div className="sidebarAdd" onClick={()=>setcreate_file(true)}>
           +
-        </span>
+        </div>
         </div>
     
     </>

@@ -7,10 +7,10 @@ export default function Collection() {
         {/* <h1>Collection Page</h1> */}
         <div style={{height:"100vh",width:"100vw",display:"flex",flexDirection:"row"}}>
 
-            <div style={{flex:"1"}} >
+            <div style={{flex:"1"}} className={"NotesCollection"}>
                 <NotesCollection/>
             </div>
-            <div >
+            <div className={"AddNote"}>
                 <AddNote/>
             </div>
 

@@ -2,3 +2,77 @@
     margin:0;
     padding:0;
 }
+.AddNoteProfile{
+    height:10vh;
+    width:73vw;
+    background-color: #001F8B;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.AddNoteDP{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    /* line-height: 23px; */
+    letter-spacing: 0.02em;
+    text-align: center;
+    /* background-color: blue; */
+    color:white;
+    border-radius: 50%;
+    padding:10px;
+    margin:10px;
+    align-items: center;
+}
+.AddNoteName{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin:10px;
+    color:white;
+}
+.AddNote_note{
+    height:70vh;
+}
+.AddNote_textarea{
+     width:97%;
+     border:12px solid #001F8B;
+     border-radius: 4px 4px 5px 5px;
+     padding:10px;
+     font-size: 18px;
+}
+.sendPic{
+    position:fixed;
+    right:2rem;
+    bottom:2rem;
+}
+.backLogo{
+    display:none;
+}
+@media only screen and (max-width: 720px){
+.AddNotePage{
+    height:90%;
+    width:100%;
+}
+.AddNoteProfile{
+    width:100%;
+    height:10vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.AddNote_note{
+    height:67vh;
+}
+.sendPic{
+    position:fixed;
+    right:2rem;
+    bottom:4rem;
+}
+.backLogo{
+    display:block
+}
+
+}
