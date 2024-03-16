@@ -37,37 +37,35 @@ letter-spacing: 0.035em;
 color:rgba(0, 0, 0, 1);
 margin:15px 0 0px 0;
 }
-.popup-group input{
-
+.popup-groupInput{
+    border: 1px solid lightgrey;
    border-radius: 12px;
-   margin:15px;
+   margin:15px 28px;
    padding:7px;
-   border:1px solid wheat;
 }
 .popup-color{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: Roboto;
-font-size: 17px;
-font-weight: 700;
-line-height: 44px;
-letter-spacing: 0.035em;
-color:rgba(0, 0, 0, 1);
-margin:0px 0 10px 0;
-gap:8px;
+    width: 30px;
+    margin: 5px;
 }
-.popup-color img{
+.popup-color input{
      height:25px;
+}
+.popup-color:input hover{
+    border:1px solid rgb(14, 14, 14);
+    border-radius: 50%;
 }
 .create-button{
    height: 20px;
    border-radius: 11px;
    background-color: rgba(0, 31, 139, 1);
    width:71px;
-   margin-left: 15rem;
+   margin-left: 10rem;
    color: white;
    border:none;
    cursor:pointer;
+}
+.popup-colorLine{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
 }
